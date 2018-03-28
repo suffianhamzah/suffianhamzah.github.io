@@ -1,6 +1,8 @@
-Welcome to my Personal Site!
+## Welcome to my Personal Site!
 
-Identity by HTML5 UP
+[![Build Status](https://travis-ci.org/suffianhamzah/suffianhamzah.github.io.svg?branch=master)](https://travis-ci.org/suffianhamzah/suffianhamzah.github.io)
+
+## Identity by HTML5 UP
 
 Credits:
 	Template:
