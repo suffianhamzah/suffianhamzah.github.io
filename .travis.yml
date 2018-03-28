@@ -1,0 +1,12 @@
+branches:
+  only:
+  - master
+
+language: python
+python: 3.5
+install: pip install awscli
+script:
+- aws s3 sync --exclude '.git/*' --exclude 'README.md' --exclude '.travis.yml' --exclude
+  '.gitignore' --exclude 'LICENSE.txt' --exclude 'README.txt' --acl public-read --delete . s3://suffianhamzah.com
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id E2XMHF11GFAT27 --paths '/*'
