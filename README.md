@@ -1,7 +1,5 @@
 ## Welcome to my Personal Site!
 
-[![Build Status](https://travis-ci.org/suffianhamzah/suffianhamzah.github.io.svg?branch=master)](https://travis-ci.org/suffianhamzah/suffianhamzah.github.io)
-
 ## Identity by HTML5 UP
 
 Credits:
